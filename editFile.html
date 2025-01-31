@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="user-bg-container">
+        <div class="user-card">
+            <h1 class="add-new-heading">Update User Details</h1>
+            <form id="editUserForm" class="form-container">
+                <div class = "input-card">
+                    <label for="userId" class="label-text">User Id</label>
+                    <input type="text" class="input-box" placeholder="id" id="userId"/>
+                    <p id="idErr" class="message error-msg"></p>
+                </div>
+                <div class = "input-card">
+                    <label for="editName" class="label-text">Name</label>
+                    <input type="text" class='input-box' placeholder="name" id="editName"/>
+                    <p id="editNameErr" class="message error-msg"></p>
+                </div>
+                <div class = "input-card">
+                    <label for="editEmail" class="label-text">Email</label>
+                    <input type="text" class="input-box" placeholder="email" id="editEmail"/>
+                    <p id="editEmailErr" class="message error-msg"></p>
+                </div>
+                <div class="btn-container">
+                    <button class="form-btn submit" id="editButton">Submit</button>
+                    <button class="form-btn back"><a href="index.html">Home</a></button>
+                </div>        
+            </form>
+        </div>
+    </div>
+    <script src="./editUser.js"></script>
+</body>
+</html>

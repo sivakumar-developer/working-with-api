@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    margin: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-color: honeydew;
+    min-height: 100vh;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Bree serif';
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f005b;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+.container-list {
+    width: 60%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px #85929e solid;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 8px;
+    overflow: scroll;
+}
+
+.list-item {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color:#006767;
+    margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .description {
+        font-size: 24px;
+    }
+}
+
+.btn-container{
+    width: 60%;
+    display: flex;
+}
+
+.button {
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+}
+
+.add {
+    background-color: dodgerblue;
+}
+
+.edit {
+    background-color: orange;
+}
+
+.delete {
+    background-color: crimson;
+}
+
+.user-bg-container {
+    background-image: linear-gradient(to right, #ff99ff, #ffccff, #ffffcc);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    height:100vh;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-new-heading{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: forestgreen;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .add-new-heading{
+        font-size: 40px;
+    }
+}
+
+.form-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #ff99cc, #ff66ff, #ff3366);
+    min-height: 300px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.input-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-text {
+    margin-right: 16px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a237e;
+}
+
+@media (min-width: 768px) {
+    .label-text {
+        font-size: 20px;
+    }
+}
+
+.input-box {
+    height: 28px;
+    width: 200px;
+    margin-top: 8px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size:16px;
+    border: none;
+}
+
+.btn-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-btn {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: none;
+    color: #330033;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .form-btn {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        font-size: 16px;
+    }
+}
+
+.submit {
+    background-color: #00e5ff;
+}
+
+.back {
+    background-color: #8c9eff;
+}
+
+.message{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 550;
+    color: chartreuse;
+}
+
+.error-msg {
+    color:red;
+    font-size: 16px;
+    font-weight: 500;
+}

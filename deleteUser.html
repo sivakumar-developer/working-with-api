@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="user-bg-container">
+        <div class="user-card">
+            <h1 class="add-new-heading">Delete User Details</h1>
+            <form id="deleteUserForm" class="form-container">
+                <div class = "input-card">
+                    <label for="deleteUserId" class="label-text">User Id</label>
+                    <input type="text" class="input-box" placeholder="id" id="deleteUserId"/>
+                    <p id="userIdErr" class="message error-msg"></p>
+                </div>
+                <div class="btn-container">
+                    <button class="form-btn submit" id="deleteButton">Delete</button>
+                    <button class="form-btn back"><a href="index.html">Home</a></button>
+                </div>        
+            </form>
+        </div>
+    </div>
+    <script src="./deleteUser.js"></script>
+</body>
+</html>

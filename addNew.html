@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="user-bg-container">
+        <div class="user-card">
+            <h1 class="add-new-heading">Create New User</h1>
+            <form id="addUserForm" class="form-container">
+                <div class = "input-card">
+                    <label for="addName" class="label-text">Name</label>
+                    <input type="text" class='input-box' placeholder="name" id="addName"/>
+                    <p id="nameErr" class="message error-msg"></p>
+                </div>
+                <div class = "input-card">
+                    <label for="email" class="label-text">Email</label>
+                    <input type="text" class="input-box" placeholder="email" id="email"/>
+                    <p id="emailErr" class="message error-msg"></p>
+                </div>
+                <div class = "input-card">
+                    <label for="userName" class="label-text">User Name</label>
+                    <input type="text" class="input-box" placeholder="username" id="userName"/>
+                    <p id="userNameErr" class="message error-msg"></p>
+                </div>
+                <div class="btn-container">
+                    <button class="form-btn submit" id="addButton">Submit</button>
+                    <button class="form-btn back"><a href="index.html">Home</a></button>
+                </div>
+                <p id="succes" class="message"></p>      
+            </form>            
+        </div>        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
